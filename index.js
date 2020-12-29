@@ -27,5 +27,4 @@ class Circle {
     return this.area * radius * 2
   }
   
-  
 }
