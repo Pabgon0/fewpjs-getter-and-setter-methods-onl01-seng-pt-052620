@@ -12,11 +12,11 @@ class Circle {
   }
   
   set circumference(circumference) {
-    this.circumference = circumference
+    this.radius = circumference / (Math.PI * diameter)
   }
   
   get circumference() {
-    return this.circumference * Math.PI * diameter
+    return this.radius * Math.PI * diameter
   }
   
   set area(area) {
